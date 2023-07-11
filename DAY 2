@@ -1,0 +1,55 @@
+//TO PRINT 1 TO 100 USING LOOP
+class JavaExample {
+   public static void main(String args[]) {
+	int n = 100;
+	System.out.print("Numbers from 1 to "+n+" are: ");
+	for (int i = 1; i <= n; i++) {
+		System.out.print(i + " ");
+	}
+   }
+}
+//TO PRINT ALTERNATE NUMBERS FROM 1 TO 99
+import java.util.*;
+ public class Exercise48 {
+     public static void main(String[] args){
+	for (int i = 1; i < 100; i++) {
+			if (i % 2 != 0) {
+				System.out.println(i);
+			}
+		}
+    }
+}
+//TO PRINT ALTERNATIVE NUMBERS FROM 0 TO 100
+public class DisplayEvenNumbersExample1  
+{  
+public static void main(String args[])   
+{  
+int number=100;  
+System.out.print("List of even numbers from 1 to "+number+": ");  
+for (int i=1; i<=number; i++)   
+{   
+if (i%2==0)   
+{  
+System.out.print(i + " ");  
+}  
+}  
+}  
+}  
+//PRINT THE REVERSE ORDER FROM 100 TO 0
+import java.util.Scanner;
+class Reverse_Numbers
+{
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter The Starting Number : ");
+		int s =input.nextInt();
+		System.out.print("Enter The Ending Number : ");
+		int e =input.nextInt(); 
+		while(s>=e)
+		{
+			System.out.println(s);
+			s--;
+		}
+	}
+}
