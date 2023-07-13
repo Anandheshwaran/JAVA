@@ -1,0 +1,69 @@
+//Write a function to find whether the given input number is Even.
+//If the given number is even, the function should return 2 else it should return 1.
+import java.util.Scanner;
+public class even{
+    public static void main(String []args){ 
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter a number:");
+int num=sc.nextInt();
+if (num%2==0){
+    System.out.println("2");
+}
+else{
+    System.out.println("1");
+}
+}
+}
+
+//Write a function to find whether the given input number is Odd.
+//If the given number is odd, the function should return 2 else it should return 1.
+import java.util.Scanner;
+public class odd{
+    public static void main(String []args){ 
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter a number:");
+int num=sc.nextInt();
+if (num%2==0){
+    System.out.println("1");
+}
+else{
+    System.out.println("2");
+}
+}
+}
+
+//Return last digit of the given number
+import java.util.Scanner;
+public class lastdigit{
+    public static void main(String []args){ 
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter a number:");
+int num=sc.nextInt();
+System.out.println(num%10);
+}
+}
+
+//Return second last digit of the given number
+import java.util.Scanner;
+public class lastdigit{
+    public static void main(String []args){ 
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter a number:");
+int num=sc.nextInt();
+int z=Math.abs(num);
+System.out.println((z% 100) / 10);
+}
+}
+//Sum of last digits of two given numbers
+
+import java.util.Scanner;
+public class lastdigit{
+    public static void main(String []args){ 
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter two numbers:");
+int num1=sc.nextInt();
+int x=Math.abs(num1%10);
+int num2=sc.nextInt();
+int y=Math.abs(num2%10);
+System.out.println(x+y);
+}}
